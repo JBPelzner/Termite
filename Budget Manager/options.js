@@ -14,7 +14,7 @@ $(function(){
             chrome.storage.sync.set({'limit': limit}, function(){
                 close();
             });
-        }
+        };
     });
 
     $('#resetTotal').click(function(){
@@ -25,7 +25,8 @@ $(function(){
                         title: 'Total reset!',
                         message: "Total has been reset to 0!"
                     };
-            chrome.notifications.create('resetNotif', notifOptions);
+            chrome.notifications.create("reset notif", notifOptions, function (){console.log('successful notification: ', notifOptions.title);});
+            chrome.notifications.getAll(function (notifications){console.log("all notification ID's returned: ", notifications);})
         });
     });
 });

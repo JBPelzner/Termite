@@ -39,13 +39,15 @@ chrome.contextMenus.onClicked.addListener(function (clickData){
                         // use Chrome API to send user a notification
                         // first parameter is notification ID
                         // second parameter is object with options for the notification
-                        chrome.notifications.create('limitNotif', notifOptions);
+                        chrome.notifications.create("limit notif", notifOptions, function() {console.log('successful notification');});
                     }
                 });
             });
         }
     }
 });
+
+
 
 
 // building the badge to auto-populate with value of 'total' variable
