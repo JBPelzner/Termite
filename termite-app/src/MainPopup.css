@@ -20,12 +20,17 @@
 
 #MainPopup-seemore{
 	float:right;
-	margin-top:-10px;
+	margin-top:-5px;
 	padding-right:30px;
 	font-size:14px;
-
-
+	border-style:none;
+	background-color:rgba(0,0,0,0);
 }
+
+#MainPopup-seemore:focus{
+	outline:none;
+}
+
 
 .MainPopup-link-button{
 	width:350px;

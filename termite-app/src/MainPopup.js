@@ -22,9 +22,9 @@ function MainPopup(props) {
 			  <IconAndTextItem text="item 3" color="#FF0000" />
 
 			</div>
-			<div id='MainPopup-seemore'>
+			<button id='MainPopup-seemore' onClick={() => {props.setPage("Breakdown")}}>
 			<p>see more details...</p>
-			</div>
+			</button>
 		  
 		  <div id ="MainPopup-otherlinks">
 			
