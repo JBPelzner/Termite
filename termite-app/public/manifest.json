@@ -1,5 +1,4 @@
 {
-  "short_name": "Termite",
   "manifest_version": 2,
   "name": "Termite",
   "version": "1.0",
@@ -10,17 +9,22 @@
       "16": "icon16.png"
   },
 
+  // "chrome_url_overrides":{
+  //     "newtab":"index.html"
+
+  // },
+
     "browser_action": {
       "default_icon": "icon16.png",
-      "default_popup": "index.html"
+      "default_popup": "index.html?popup=true"
   },
 
-  "options_page": "index.html",
+  "options_page": "index.html?popup=false",
 
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff",
+  // "start_url": ".",
+  // "display": "standalone",
+  // "theme_color": "#000000",
+  // "background_color": "#ffffff",
 
   // "background": {
   //     "scripts": ["eventPage.js"],

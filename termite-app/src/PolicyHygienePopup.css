@@ -1,0 +1,53 @@
+.MainPopup{
+	width:400px;
+	background-color:#eee;
+	padding:10px;
+}
+
+
+#MainPopup-grade{
+	background-color: #ccc;
+	border-radius:100px;
+	border-style:none;
+	width:100px;
+	height:100px;
+	font-size:36px;
+
+}
+
+
+#MainPopup-reducedsummary{
+	background-color: #aaa;
+	border-style:none;
+	width:350px;
+	margin:0px 25px;
+
+}
+
+
+#MainPopup-seemore{
+	float:right;
+	margin-top:-10px;
+	padding-right:30px;
+	font-size:14px;
+
+
+}
+
+.MainPopup-link-button{
+	width:350px;
+	height:40px;
+	background-color:#ccc;
+	border-style:none;
+	font-size:16px;
+	text-align:center;
+	margin-top:10px;
+
+}
+
+
+
+
+
+
+

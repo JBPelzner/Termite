@@ -1,31 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import PopupPage from "./Popup.js";
+import OptionsPage from "./Options.js";
 
 function App() {
+
+  function isPopup() {
+    var url = window.location.search.substring(1);
+    return (url.split('=')[1] === 'true');
+  }
+
   return (
     <div className="App">
-      
-    <h1>Termite</h1>
-   
-    
-
-    <h2>About Our Classifier</h2>
-
-
-
-
-    <h2>User Preferences</h2>
-
-
-
-
-    <h2>User reports</h2>
-    
-
-
-
-
+      {isPopup() ? (
+        <PopupPage />
+      ) : (
+        <OptionsPage />
+      )}
     </div>
   );
 }
