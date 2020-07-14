@@ -1,0 +1,11 @@
+#BreakdownPopup-Background{
+	padding-top:15px;
+	background-color:#bbb;
+	width:370px;
+	margin-left:15px;
+	padding-bottom:5px;
+	overflow:scroll;
+	height:450px;
+	border-radius:10px;
+
+}

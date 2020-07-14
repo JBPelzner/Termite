@@ -1,0 +1,16 @@
+.PreferencesSlider-input{
+	width:62%;
+	padding-top:8px;
+	padding-bottom:8px;
+}
+
+.PreferencesSlider-label {
+	margin-left: 7px;
+
+}
+
+.PreferencesSlider-topicdesc{
+	font-size:14px;
+	padding:5px;
+	text-align:left;
+}

@@ -1,21 +1,28 @@
 import React from 'react';
-import './MainPopup.css';
 import Backarrow from './backarrow.png';
+import BreakdownDropdown from './BreakdownDropdown.js';
+import './BreakdownPopup.css';
 
 
 function BreakdownPopup(props) {
 	return (
 		<div className="BreakdownPopup">
 		 
-			<input type='image' className='backbutton' src={Backarrow} onClick={() => {props.setPage("Main")}} ></input>
-		  
-		  <h1>Termite</h1>
-		
-			
-		 
+		  <div id='BreakdownPopup-Background'>
+		   <BreakdownDropdown text="topic 1" color="#004d00" description="this is a description. look at me go."/>
+		   <BreakdownDropdown text="topic 2" color="#004d00" description="this is a description. look at me go."/>
+		   <BreakdownDropdown text="topic 3" color="#004d00" description="this is a description. look at me go."/>
+		   <BreakdownDropdown text="topic 4" color="#004d00" description="this is a description. look at me go."/>
+		   <BreakdownDropdown text="topic 5" color="#004d00" description="this is a description. look at me go."/>
+		   <BreakdownDropdown text="topic 6" color="#004d00" description="this is a description. look at me go."/>
+		   <BreakdownDropdown text="topic 7" color="#004d00" description="this is a description. look at me go."/>
+		   <BreakdownDropdown text="topic 8" color="#004d00" description="this is a description. look at me go."/>
+		   <BreakdownDropdown text="topic 9" color="#004d00" description="this is a description. look at me go."/>
+		   <BreakdownDropdown text="topic 10" color="#004d00" description="this is a description. look at me go."/>
 
-		  <h2>Breakdown</h2>
-		  
+		  </div>
+
+
 
 		</div>
 	)

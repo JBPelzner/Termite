@@ -1,0 +1,104 @@
+.Options {
+	background-color: #FFF;
+}
+
+.Options-Header {
+	
+	width: 100%;
+	top:0;
+	left:0;
+	text-align: left;
+	background-color: #0566ff;
+
+}
+
+.optionsh1{
+	text-align:left;
+	margin:0px;
+	padding:5px;
+}
+
+.Options-Content {
+	height: calc(100% - 130px);
+	width: 100%-200px;
+	margin-top: 50px;
+	margin-left: 200px;
+	margin-right:100px;
+	background-color: #FFF;
+}
+
+.Options-Nav {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 150px;
+	background-color: #005cec;
+
+}
+
+.optionsh4{
+	text-align:left;
+	margin-left:50px;
+	padding:10px;
+	font-size:20px;
+	color:#005cec;
+}
+
+
+.optionsh2{
+	font-size:28px;
+	padding:0px;
+}
+
+.optionsh3{
+	font-size:24px;
+	text-align:left;
+	padding:20px;
+	
+	color:#0048b9;
+
+}
+
+.Options-NavButton {
+	height: 30px;
+	width: 100%;
+	border-radius: 0px;
+	border-style: none;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-width: 1px;
+	background-color: #0566ff;
+	border-top-style: none;
+	border-top-width: 1px;
+	border-color: #005cec;
+	font-size: 14px;
+}
+
+.Options-NavButton:hover {
+	height: 30px;
+	width: 100%;
+	border-radius: 0px;
+	border-style: none;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-width: 1px;
+	background-color: #3986ff;
+	border-top-style: solid;
+	border-top-width: 2px;
+	border-color: #005cec;
+	font-size: 14px;
+}
+
+
+.Options-NavButtonSelected {
+	height: 30px;
+	width: 100%;
+	border-radius: 0px;
+	border-style: none;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-width: 1px;
+	background-color: #3986ff;
+	font-size: 14px;
+}

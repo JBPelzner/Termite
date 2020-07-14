@@ -1,0 +1,33 @@
+#PreferencesBox {
+  overflow: hidden;
+  height: 580px;
+}
+
+#PreferencesScrollbox{
+	overflow: scroll;
+}
+
+#PreferencesPopup-Text {
+  padding: 10px;
+  padding-left:15px;
+  padding-right:15px;
+  font-size:14px;
+  text-align:left;
+}
+
+
+.lefth3{
+	text-align:left;
+	margin-left:10px;
+	font-size:16px;
+	font-weight:lighter;
+
+}
+
+.lefth4{
+	text-align:left;
+	margin-left:25px;
+
+}
+
+
