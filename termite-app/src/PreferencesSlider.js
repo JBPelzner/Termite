@@ -4,8 +4,6 @@ import './PreferencesSlider.css';
 
 function PreferencesSlider(props) {
 
-	const [value, setValue] = useState(7);
-
 	return (
 		<div className="PreferencesSlider">
 		
@@ -17,8 +15,8 @@ function PreferencesSlider(props) {
 			  	{props.description}
 		</div>
   		
-  		<input type="range" className='PreferencesSlider-input' min="1" max="7" onChange={(e) => setValue(e.target.value)} value={value}/>
-  		<label className='PreferencesSlider-label'>{value}</label>
+  		<input type="range" className='PreferencesSlider-input' min="1" max="7" onChange={(e) => props.setValue(parseInt(e.target.value))} value={props.value}/>
+  		<label className='PreferencesSlider-label'>{props.value}</label>
   		
 		</div>
 

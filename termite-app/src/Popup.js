@@ -7,7 +7,7 @@ import BreakdownPopup from './BreakdownPopup.js';
 import ToggleButton from 'react-toggle-button';
 import Backarrow from './backarrow.png';
 
-function Popup() {
+function Popup(props) {
 
 	const [operational, toggleOperational] = useState("True");
 
@@ -48,13 +48,13 @@ function Popup() {
 
 			<div className="PopupContents">
 
-				{(page === "Main") && <MainPopup setPage={setPage} setTitle={setTitle}/> }
+				{(page === "Main") && <MainPopup setPage={setPage} setTitle={setTitle} websiteURL={props.websiteURL}/> }
 
 				{(page === "PolicyHygiene") && <PolicyHygienePopup setPage={setPage} setTitle={setTitle}/> }
 
 				{(page === "Breakdown") && <BreakdownPopup setPage={setPage} setTitle={setTitle}/> }
 
-				{(page === "Preferences") && <PreferencesPopup setPage={setPage} setTitle={setTitle}/> }
+				{(page === "Preferences") && <PreferencesPopup setPage={setPage} setTitle={setTitle} userID={props.userID}/> }
 
 			</div>
 

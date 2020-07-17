@@ -47,11 +47,11 @@ function Options(props) {
 			
 				{(props.page === "About") && <AboutOptions /> }
 
-				{(props.page === "UserPreferences") && <UserPreferencesOptions /> }
+				{(props.page === "UserPreferences") && <UserPreferencesOptions userID={props.userID}/> }
 
 				{(props.page === "UserReports") && <UserReportsOptions /> }
 
-				{(props.page === "Agreements") && <AgreementsOptions /> }
+				{(props.page === "Agreements") && <AgreementsOptions userID={props.userID}/> }
 
 			</div>
 

@@ -6,6 +6,8 @@ import OptionsPage from "./Options.js";
 function App() {
 
   const [optionsPage, setOptionsPage] = useState("About");
+  const [userID, setUserID] = useState("jacob");
+  const [websiteURL, setWebsiteURL] = useState("http://www.testtesttest.com");
 
   function isPopup() {
     var url = window.location.search.substring(1);
@@ -15,9 +17,9 @@ function App() {
   return (
     <div className="App">
       {isPopup() ? (
-        <PopupPage />
+        <PopupPage userID={userID} websiteURL={websiteURL}/>
       ) : (
-        <OptionsPage page={optionsPage} setPage={setOptionsPage}/>
+        <OptionsPage userID={userID} websiteURL={websiteURL} page={optionsPage} setPage={setOptionsPage}/>
       )}
     </div>
   );

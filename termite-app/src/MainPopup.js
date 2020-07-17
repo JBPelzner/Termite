@@ -1,21 +1,28 @@
-import React, {useState} from 'react';
+/*global chrome*/
+
+import React, {useState, useEffect} from 'react';
 import './MainPopup.css';
 import IconAndTextItem from './IconAndTextItem.js';
+
+import {getModelData} from "./utils/ApiCalls.js";
+
 
 
 function MainPopup(props) {
 
 	const [scores, setScores] = useState([]);
 
-	fetch('http://ec2-18-188-128-88.us-east-2.compute.amazonaws.com:3005/data/model?website_address=http://www.testtesttest.com', {
-		method: "GET",
-		headers: {"Content-Type": "application/json"}
-	})
-	.then(res => res.json())
-	.then(data => {
-		setScores(data[0]);
-	})
-	.catch(err => console.log(err));
+	useEffect(() => {
+		getModelData(props.websiteURL)
+		.then(data => {
+			if (data.length >= 1) {
+				setScores(data[0]);
+			} else {
+				setScores(data);
+			}
+		})
+		.catch(err => console.log(err));
+	}, [setScores, getModelData]);
 
 	function generateSubScores() {
 		var avg_scores = [];
@@ -52,6 +59,7 @@ function MainPopup(props) {
 
 			html_items.push(
 				<IconAndTextItem 
+					key={loopcount}
 					text={name}
 					score={score}
 					color="#004d0080"
@@ -64,6 +72,7 @@ function MainPopup(props) {
 				
 			
 		return html_items;
+
 	}
 
 	return (
@@ -83,7 +92,9 @@ function MainPopup(props) {
 
 			</div>
 
-		  
+		 
+
+
 		  <div className="subheader">
 		  	<h2 id="MainPopup-Actions">Actions</h2>
 		  </div>
@@ -94,12 +105,21 @@ function MainPopup(props) {
 				props.setPage("PolicyHygiene");
 				props.setTitle("Policy Hygiene");
 			}}>View my policy hygiene</button>
-			<button className='Popup-link-button'>View my agreements</button>
+
+			<button className='Popup-link-button' >View my agreements</button>
+
 			<button className='Popup-link-button' onClick={() => {
 				props.setPage("Preferences");
 				props.setTitle("My Preferences");
 			}}>Preferences</button>
-			<button className='Popup-link-button'>About Termite</button>
+
+
+
+			
+			<button className='Popup-link-button' onClick={event => chrome.tabs.create({url: 'chrome-extension://cmbhklnlhedajplcdidgfdnfllfnpddc/index.html?popup=false'})}>
+				About Termite
+				</button>
+			
 
 
 	
