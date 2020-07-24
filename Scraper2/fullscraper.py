@@ -24,7 +24,7 @@ class generalSpider2(scrapy.Spider):
     # we are planning to use the chrome api chrome.activeTab.url and store the js variable
     # so we need to find a way to use a js variable or to directly call the url of the current tab
   start_urls = [
-      'https://learn.datascience.berkeley.edu'
+      'https://www.amazon.com'
   ]
 
   custom_settings = {'FEED_FORMAT':'json', 'FEED_URI':'EC2testoutput.json'}
