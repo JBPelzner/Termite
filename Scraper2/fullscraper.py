@@ -611,8 +611,8 @@ class generalSpider2(scrapy.Spider):
 
 
 
-# process = CrawlerProcess()
-# process.crawl(generalSpider2)
-# process.start()
+process = CrawlerProcess()
+process.crawl(generalSpider2)
+process.start()
 
       
