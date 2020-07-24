@@ -1,0 +1,21 @@
+.AgreementOptions-Header {
+	display: inline-block;
+	height: 100px;
+}
+
+.AgreementOptions-Content {
+	padding: 0px 13%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: calc(100vh - 250px);
+}
+
+.AgreementOptions {
+	height: 100%;
+}
+
+.AgreementOptions-ContentInner {
+	background-color: #eee;
+	padding: 1vh 2vw;
+	border-radius: 15px;
+}

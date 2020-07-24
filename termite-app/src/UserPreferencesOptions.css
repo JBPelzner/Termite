@@ -1,0 +1,23 @@
+.UserPreferencesOptions-Header {
+	display: inline-block;
+	height: 100px;
+}
+
+.UserPreferencesOptions-Content {
+	padding: 0px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: calc(100% - 150px);
+	margin-top:-520px;
+}
+
+.UserPreferencesOptions {
+	height: 100%;
+}
+
+#PreferencesBox{
+	width:70%;
+	margin-left:15%;
+	text-align:left;
+	font-size:14px;
+}

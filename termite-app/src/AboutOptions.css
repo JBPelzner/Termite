@@ -1,0 +1,27 @@
+.AboutOptions-Header {
+	display: inline-block;
+	height: 100px;
+}
+
+.AboutOptions-Content {
+	padding: 0px 13%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: calc(100vh - 250px);
+	
+}
+
+.AboutOptions {
+	height: 100%;
+}
+
+.AboutOptions-ContentInner {
+	background-color: #eee;
+	padding: 1vh 2vw;
+	border-radius: 15px;
+}
+
+.AboutOptions-p{
+	text-align:left;
+	margin-left:90px;
+}
