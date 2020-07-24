@@ -27,12 +27,12 @@ class generalSpider2(scrapy.Spider):
       'https://learn.datascience.berkeley.edu'
   ]
 
-  # custom_settings = {'FEED_FORMAT':'json', 'FEED_URI':'custom23.json'}
+  custom_settings = {'FEED_FORMAT':'json', 'FEED_URI':'EC2testoutput.json'}
 
-  custom_settings = {'FEEDS':{
-                              'refined_scrape_amazon.json': {'format': 'json'}
-                              },
-                    }
+  # custom_settings = {'FEEDS':{
+  #                             'refined_scrape_amazon.json': {'format': 'json'}
+  #                             },
+  #                   }
 
   # custom_settings = {'REDIRECT_ENABLED': False,
   #                     'FEEDS': {
