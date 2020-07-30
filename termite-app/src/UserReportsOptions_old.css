@@ -1,0 +1,15 @@
+.UserReportsOptions-Header {
+	display: inline-block;
+	height: 100px;
+}
+
+.UserReportsOptions-Content {
+	padding: 0px 15%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: calc(100% - 132px);
+}
+
+.UserReportsOptions {
+	height: 100%;
+}

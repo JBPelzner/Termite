@@ -1,10 +1,10 @@
 .AgreementsOptions-Header {
 	display: inline-block;
-	height: 100px;
+	
 }
 
 .AgreementsOptions-Content {
-	padding: 0px 25%;
+	padding: 0px 13%;
 	overflow-x: hidden;
 	overflow-y: auto;
 	height: calc(100vh - 250px);
@@ -19,8 +19,12 @@
 	border-radius: 15px;
 }
 
-td{
-	width: 10vw;
-	background-color: #eee;
-	height: 50px;
+#AgreementsCaption{
+	margin:30px;
+}
+
+#AgreementsTable{
+	background-color:#000;
+	width:900px;
+	display: inline-block;
 }

@@ -102,23 +102,17 @@ function MainPopup(props) {
 		  <div id ="MainPopup-otherlinks">
 			
 			<button className='Popup-link-button' onClick={() => {
-				props.setPage("PolicyHygiene");
-				props.setTitle("Policy Hygiene");
-			}}>View my policy hygiene</button>
-
-			<button className='Popup-link-button' >View my agreements</button>
-
-			<button className='Popup-link-button' onClick={() => {
 				props.setPage("Preferences");
 				props.setTitle("My Preferences");
-			}}>Preferences</button>
+			}}>Set Preferences</button>
 
-
-
+			<button className='Popup-link-button' onClick={event => chrome.tabs.create({url: '/index.html?popup=false'})}>User Portal</button> 
 			
-			<button className='Popup-link-button' onClick={event => chrome.tabs.create({url: 'chrome-extension://cmbhklnlhedajplcdidgfdnfllfnpddc/index.html?popup=false'})}>
-				About Termite
+
+			<button className='Popup-link-button' onClick={event => chrome.tabs.create({url: 'https://odowns3.wixsite.com/termite'})}>
+				Our Website
 				</button>
+	
 			
 
 

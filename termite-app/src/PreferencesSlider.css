@@ -1,7 +1,8 @@
 .PreferencesSlider-input{
-	width:62%;
+	width:52%;
 	padding-top:8px;
 	padding-bottom:8px;
+	align-self: center;
 }
 
 .PreferencesSlider-label {

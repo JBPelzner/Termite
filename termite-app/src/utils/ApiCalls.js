@@ -1,10 +1,27 @@
 // all api fetch calls live here, import them into particular components as needed
 
 //use while running apis from server
-//const hostname = 'http://ec2-18-188-128-88.us-east-2.compute.amazonaws.com';
+const hostname = 'http://ec2-18-224-6-72.us-east-2.compute.amazonaws.com';
 
 //use while testing on local server apis
-const hostname = 'http://localhost';
+//const hostname = 'http://localhost';
+
+
+//function calls 
+
+// this one will be attached to an event listener, when a tab 
+// is activated
+
+export function postOriginAddress(origin_url, userID) {
+  return (
+    fetch(hostname + ':3005/scraper/', {
+      method: "POST",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify({url: origin_url, user_id: userID})
+    })
+   //.then(res => res.json())
+  );
+};
 
 export function getModelData(webAddr) {
   return (
@@ -15,6 +32,7 @@ export function getModelData(webAddr) {
     .then(res => res.json())
   );
 };
+
 
 export function getUserPreferences(userID) {
   return (
@@ -62,3 +80,20 @@ export function postUserAgreement(userID, webAddr) {
     })
   });
 };
+
+
+export function getUserAgreementsFrontend(userID) {
+  return (
+    fetch(hostname + ':3005/user/user_agreements_frontend?id=' + userID, {
+      method: "GET",
+      headers: {"Content-Type": "application/json"}
+    })
+    .then(res => res.json())
+  );
+};
+
+
+
+
+
+
