@@ -15,6 +15,27 @@ SPIDER_MODULES = ['Scraper2.spiders']
 NEWSPIDER_MODULE = 'Scraper2.spiders'
 
 
+# Splash Settings
+SPLASH_URL = 'http://192.168.99.103:8050'
+# SPLASH_URL = 'http://localhost:8050'
+# SPLASH_URL = 'http://0.0.0.0:8050'
+
+# DOWNLOADER_MIDDLEWARES = {
+#     'scrapy_splash.SplashCookiesMiddleware': 723,
+#     'scrapy_splash.SplashMiddleware': 725,
+#     'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware': 810,
+# }
+
+DOWNLOAD_DELAY = 0.25
+
+SPIDER_MIDDLEWARES = {
+    'scrapy_splash.SplashDeduplicateArgsMiddleware': 100,
+}
+DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
+HTTPCACHE_STORAGE = 'scrapy_splash.SplashAwareFSCacheStorage'
+
+
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 # USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
 # USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36'
@@ -25,7 +46,7 @@ USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36
 ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-# CONCURRENT_REQUESTS = 512
+CONCURRENT_REQUESTS = 1024
 
 # Configure a delay for requests for the same website (default: 0)
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
@@ -53,12 +74,16 @@ ROBOTSTXT_OBEY = False
 #    'Scraper2.middlewares.Scraper2SpiderMiddleware': 543,
 # }
 
-# DOWNLOADER_MIDDLEWARES = {
-#     'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
-#     'scrapy.downloadermiddlewares.retry.RetryMiddleware': None,
-#     'scrapy_fake_useragent.middleware.RandomUserAgentMiddleware': 400,
-#     'scrapy_fake_useragent.middleware.RetryUserAgentMiddleware': 401,
-# }
+DOWNLOADER_MIDDLEWARES = {
+    # 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
+    # 'scrapy.downloadermiddlewares.retry.RetryMiddleware': None,
+    # 'scrapy_fake_useragent.middleware.RandomUserAgentMiddleware': 400,
+    # 'scrapy_fake_useragent.middleware.RetryUserAgentMiddleware': 401,
+
+    'scrapy_splash.SplashCookiesMiddleware': 723,
+    'scrapy_splash.SplashMiddleware': 725,
+    'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware': 810,
+}
 
 # DOWNLOADER_MIDDLEWARES_BASE: {'scrapy.downloadermiddlewares.ajaxcrawl.AjaxCrawlMiddleware': 560,
 #                                'scrapy.downloadermiddlewares.cookies.CookiesMiddleware': 700,
