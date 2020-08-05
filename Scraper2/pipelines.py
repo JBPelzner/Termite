@@ -8,4 +8,6 @@
 
 class Scraper2Pipeline:
     def process_item(self, item, spider):
-        return item
+        global scraped_items
+        scraped_items.append(item)
+        return

@@ -30,21 +30,26 @@ class Scraper2Item(scrapy.Item):
 
 class WebPageItem(scrapy.Item):
     # specific_url = Field()
-    origin_url = scrapy.Field()
+    # origin_url = scrapy.Field()
     link_dict = scrapy.Field()
     pass
 
 class WebPolicyItem(scrapy.Item):
     # can be obtained from the host page
-    host = scrapy.Field()
-    label = scrapy.Field() 
+    # host = scrapy.Field()
+    # label = scrapy.Field() 
     link = scrapy.Field()
     # can only be obtained from the policy page
     title = scrapy.Field()
     url = scrapy.Field()
     last_updated = scrapy.Field()
     text = scrapy.Field()
-    html = scrapy.Field()
+    # html = scrapy.Field()
     pass
 
+class ExportItem(scrapy.Item):
+    text = scrapy.Field()
+    updates = scrapy.Field()
+    titles = scrapy.Field()
+    urls = scrapy.Field()
 

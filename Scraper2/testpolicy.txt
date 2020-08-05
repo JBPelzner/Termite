@@ -1,0 +1,103 @@
+Thank you for participating in the The University of California, Berkeley, School of Information (the “School”) Master of Information and Data Science online program (the “Program”). This privacy policy (the “Privacy Policy”) describes the types of information that 2U, Inc. (“2U,” “we,” or “us”) collects, uses, and discloses information from and about you as a data controller when you use, access, and interact with the Program’s learning management system (“LMS”), as well as your ability to control certain uses of that information. By accessing or otherwise using the LMS, you agree to the terms and conditions of this Privacy Policy (which is incorporated into and forms a part of the LMS Terms of Use) and consent to the processing of your information according to the Privacy Policy.
+
+2U is a technology service provider for the School, and, as part of the services 2U provides to the School in connection with the Program, 2U operates and hosts the LMS. 2U respects your privacy and is committed to protecting it through our compliance with this Privacy Policy.
+
+Collection of Information
+
+Information You Provide
+
+2U collects information from you via the Program when you give your consent, when it is necessary to perform a contract or to comply with a legal obligation, or if 2U has a legitimate interest for processing the data (e.g., reporting possible criminal acts or threats to public security to a competent authority), including personal information. For example, we may collect your information when you register for the LMS, submit information through the LMS, request information from us, or otherwise contact us. The information we collect may include your name, address, e-mail address, telephone number, Your Content (as described further in the Terms of Use), the content of any communications to us, including the comments you share in the LMS, or any other information you upload or provide to us through the LMS.
+
+Information Automatically Collected
+
+We may use a variety of technologies such as cookies, pixel tags, web beacons, web server logs, and other similar technologies to collect certain information about your use of the LMS and interactions with our emails, and to allow us to keep track of analytics and certain statistical information.
+
+For example, we may automatically collect information from your computer or other device used to access the LMS, including your internet protocol address (“IP address”), browser type, operating system, device identifier, device model, software version, or mobile or ISP carrier information. We may also collect information about your use of the LMS, such as the date and time of your visit, the information you searched to find the LMS, your participation in Program courses (such as recorded class sessions, assignments you submit, your communications on the LMS, surveys and other course data submitted by you), the areas or pages of the LMS that you visit; the amount of time you spend using the LMS; the number of times you return to the LMS; and whether and when you add a contact, join a group, write a post, share a link, post a picture or video, add notes, and/or upload content; and whether you open, forward, or click-through emails.
+
+Third Party Service Providers
+
+We may use third party service providers to support our LMS. Some of these service providers may use technology such as cookies, web beacons, pixel tags, log files, or Flash cookies to receive, collect, and store information.
+
+Information Collected from Other Sources
+
+We may obtain information about you from other sources, including those that you may use to connect or integrate into the LMS, such as Google Cloud. As part of any such integration, you may be required to accept third party terms of use and privacy policy. Any data that 2U accesses, uses, stores, or otherwise shares as part of that integration will comply with this Privacy Policy.
+
+Combination of Information
+
+We may combine the information we receive from and about you, including information you provide to us and information we automatically collect through the LMS, as well as information collected from third party sources (including your professors) to help us provide services through the LMS, tailor our communications to you, and to improve the LMS.
+
+Tracking Options and California Do Not Track Disclosures
+
+Certain parts of the LMS require cookies. You may adjust your browser or operating system settings to limit certain tracking or to decline cookies; however, if you do so, you may be unable to access certain areas or use certain features of the LMS. Check the “Help” menu of your browser or operating system to learn how to delete and/or disable your browser or operating system from receiving cookies or controlling your tracking preferences. On your mobile device, you can adjust your privacy and advertising settings to limit your tracking for advertising or control whether you receive more relevant advertising.
+
+Our systems may not respond to Do Not Track requests or headers from some or all browsers. Learn more about the use of cookies or other tracking or retargeting technologies and your choices regarding the use of information collected this way by certain Service Providers (as defined below).
+
+How We Use Your Information
+
+In its capacity as a technology service provider to the School, 2U may use the information it collects from and about you:
+
+To provide our services, including the set-up and management of accounts and profiles;
+To develop new products or services and to conduct analysis to enhance current products and services;
+To communicate with you related to your use of the LMS or to your participation in the Program. You may not opt out of receiving such communications while participating in the Program;
+To integrate your use of the LMS with select services provided to you by Google;
+To personalize your experience on the LMS and help us better respond to your individual needs;
+To review the usage and operations of the LMS and to analyze and improve the LMS (we continually strive to improve the LMS based on the information and feedback we receive from you);
+To respond to your inquiries or contact and communicate with you when necessary;
+To protect the security of the LMS; and
+As otherwise described at the point of collection or for purposes which you expressly permit us to use the information.
+We will retain your personal information for as long as necessary to provide you with the services through the Website or to otherwise administer and maintain the services and our Website.
+
+How We Disclose Your Information
+
+2U may share your information with other entities or individuals outside of 2U in the following limited circumstances:
+
+School: We may share your information with the School in order to process your information, track your participation in the Program, and/or provide our services to the School.
+Service Providers: We may share information with our service providers that provide business, professional, or technical support functions for us. These service providers are only provided access to your information to the extent necessary to process your information and/or provide services to 2U, and may not use or share your information for any other purposes.
+Legal Matters; Safety: We may access and disclose your information to satisfy any applicable law, regulation, legal process, or governmental request, or in connection with an investigation on matters related to public safety, as permitted by law, or otherwise as required by law. We may disclose your information to protect the security of the Program, LMS, servers, network systems, and databases. We also may disclose your information as necessary, if we believe that there has been a violation of our Terms of Use (including investigation of potential violations thereof), any other legal document or contract related to the LMS, or the rights of any third party.
+Fraud; Security: We may access and disclosure your information to detect, prevent, or otherwise address fraud, security or other technical issues.
+Consent; Other: We may share information with third parties when we have your consent, or otherwise as described to you at the point of collection.
+Sale or Transfer of Business or Assets: 2U may sell or purchase assets during the normal course of our business. If another entity acquires us or any of our assets, information we have collected about you may be transferred to such entity. In addition, if any bankruptcy or reorganization proceeding is brought by or against us, such information may be considered an asset of ours and may be sold or transferred to third parties. Should such a sale or transfer occur, we will use reasonable efforts to try to require that the transferee use your information in a manner that is consistent with this Privacy Policy.
+Aggregate or Anonymous Non-Personal Information: 2U may also share aggregate or anonymous non-personal information with third parties for their marketing or analytics uses. For example, we provide Google Analytics with de-identified data so that they may provide us with a better understanding of visitors’ interactions with the LMS, including actions a visitor takes while accessing the LMS or sites to which a visitor navigates after leaving the LMS. Learn more about Google Analytics’ use of de-identified data.
+Your California Privacy Rights
+
+If you are a California resident, you may opt-out of our disclosure of personal information to third parties (including affiliated third parties which may not share the 2U name) for their direct marketing purposes. To opt-out, please contact us at privacy@2u.com. You must put the statement “Your California Privacy Rights” in the subject field. We are not responsible for notices that are not labeled or sent properly, or do not have complete information.
+
+Non-affiliated third parties are independent from 2U and if you wish to receive information about your disclosure choices or stop communications from such third parties, you will need to contact those non-affiliated third parties directly.
+
+Your Rights Under the Family Educations Rights and Privacy Act
+
+You have specific rights relating to the disclosure of any personal information that you provide to us and/or records that we may create about you under the Family Education Rights & Privacy Act (“FERPA”). You also have specific rights related to accessing and/or updating your personal information. For more information related to the applicability of FERPA and your rights under it, please contact us at privacy@2u.com or the appropriate party at the School.
+
+Public Forums; Publicly Available Content
+
+Any information you may disclose through the LMS, on message boards, in chat rooms, or on other public areas on the LMS may be viewed by others, such as your classmates and professors. Please exercise caution when disclosing personal information in these public areas.
+
+Your Content may be made available, and may be accessed, viewed, stored, collected, or used by other users of the LMS, such as your classmates and professors, subject to your restrictions and the Terms of Use Policy (see Section 6, “Your Content”). If you do not want 2U to store metadata associated with Your Content, please remove the metadata before uploading Your Content.
+
+Data Security
+
+We are committed to protecting the security of your information. We have taken certain physical, administrative, and technical steps designed to safeguard and secure your information and to prevent unauthorized access, maintain accuracy, and ensure appropriate use of your information. The accuracy, safety, and security of your information also depend on you. Where we have given you (or where you have chosen) a password for access to certain parts of the LMS, you are responsible for keeping this password confidential. We ask that you not share your password with anyone. Even though we do our best to protect your information, the transmission of information via the internet is not completely secure, and we cannot guarantee our security measures. We are not responsible for any circumvention of any unauthorized access to your information. You may direct any questions or comments regarding security by emailing security@2u.com.
+
+Other Websites
+
+We may link to or offer some of our services in connection with third party websites or applications, which may have different privacy practices. We are not responsible for the practices of such sites or applications, and we encourage you to read and fully understand their privacy policies.
+
+Children’s Privacy
+
+We do not direct the LMS to, nor do we knowingly collect any personal information from, children under 13.
+
+Accessing and Managing Your Personal Information
+
+You may access and/or update your personal information through your user profile. In some instances, you may be eligible to (a) request that 2U export a full listing of your personal information in a commonly used electronic form (b) withdraw your consent to 2U for processing your personal information; and (c) request that 2U restrict processing or delete your information. Certain personal information, however, is necessary for us to provide information to you about the Program or to provide services to you through the LMS or otherwise. If you choose not to provide this personal information or request that 2U delete or restrict processing of this personal information, you may not be able to participate in the Program, and we may not be able to provide you with other services, including those provided through the LMS or advertised about the Program.
+
+To the extent the above rights apply in your country, they may be limited in some situations, for example, where 2U is under a legal requirement to retain certain information. If you wish to make a request described in this paragraph, or if you are otherwise unable to access and/or edit your personal information through your user profile, you may contact us at privacy@2u.com.
+
+Changes to This Privacy Policy
+
+2U may revise this Privacy Policy at any time and without prior notice. When we do, we will post the change(s) on the LMS. In the event that we make any material change(s), we will provide appropriate notice to you. We recommend that you periodically review this Privacy Policy for any updates and/or changes. Your continued use of the LMS after we make changes shall be considered your acceptance of those changes.
+
+Contact Us
+
+You may direct any questions or concerns regarding this Privacy Policy, or the practices described herein, to us at Compliance Department/Privacy, 7900 Harkins Road, Lanham, MD 20706 or privacy@2u.com. You may also have a right to complain to a European Union data protection authority.
+
+View the previous version of this Privacy Policy.

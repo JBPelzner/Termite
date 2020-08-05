@@ -9,6 +9,21 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
+# Splash Settings
+SPLASH_URL = 'http://0.0.0.0:8050'
+DOWNLOADER_MIDDLEWARES = {
+    'scrapy_splash.SplashCookiesMiddleware': 723,
+    'scrapy_splash.SplashMiddleware': 725,
+    'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware': 810,
+}
+DOWNLOAD_DELAY = 0.25
+SPIDER_MIDDLEWARES = {
+    'scrapy_splash.SplashDeduplicateArgsMiddleware': 100,
+}
+DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
+HTTPCACHE_STORAGE = 'scrapy_splash.SplashAwareFSCacheStorage'
+
+
 BOT_NAME = 'Scraper2'
 
 SPIDER_MODULES = ['Scraper2.spiders']
@@ -22,7 +37,7 @@ NEWSPIDER_MODULE = 'Scraper2.spiders'
 USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = False
+ROBOTSTXT_OBEY = True
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 # CONCURRENT_REQUESTS = 512
@@ -54,6 +69,8 @@ ROBOTSTXT_OBEY = False
 # }
 
 # DOWNLOADER_MIDDLEWARES = {
+
+
 #     'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
 #     'scrapy.downloadermiddlewares.retry.RetryMiddleware': None,
 #     'scrapy_fake_useragent.middleware.RandomUserAgentMiddleware': 400,
@@ -94,10 +111,14 @@ RANDOM_UA_TYPE = 'chrome'
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'Scraper2.pipelines.Scraper2Pipeline': 300,
-#}
+# ITEM_PIPELINES = {
+#     'Scraper2.pipelines.Scraper2Pipeline': 100,
+# }
 
+# ITEM_PIPELINES = {
+#       'Scraper2.refinedscraper.Scraper2Pipeline': 100
+# }
+    
 
 
 # Enable and configure the AutoThrottle extension (disabled by default)
