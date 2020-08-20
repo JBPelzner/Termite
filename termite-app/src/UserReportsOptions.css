@@ -1,15 +1,45 @@
+body {
+    background-color: #eeeeee;
+    margin: 0;
+}
+.scoreLineChart,
+.distrBarChart,
+.distrBarChart2 {
+    height: 300px;
+    flex: 1 0 300px;
+}
+.dashboard-flex-container {
+    display: flex;
+    /* width: 100%; */
+    height: 800px;
+    flex-wrap: wrap;
+}
+.dashboard-flex-container>div {
+    margin:0.5em;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px #ccc;
+}
 .UserReportsOptions-Header {
-	display: inline-block;
-	height: 100px;
+    display: inline-block;
+    height: 100px;
 }
-
 .UserReportsOptions-Content {
-	padding: 0px 15%;
-	overflow-x: hidden;
-	overflow-y: auto;
-	height: calc(100% - 132px);
+    padding: 0px 15%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: calc(100% - 132px);
+}
+.UserReportsOptions {
+    height: 100%;
 }
 
-.UserReportsOptions {
-	height: 100%;
-}
+
+
+
+
+
+
+
+
+
+

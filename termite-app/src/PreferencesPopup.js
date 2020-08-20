@@ -41,12 +41,10 @@ function PreferencesPopup(props) {
 	return (
 		<div className="PreferencesPopup">
 
-		  <div id="PreferencesBox">
-
-		  	<p id='PreferencesPopup-Text'>
+		  	<p class='PreferencesPopup-Text'>
 				
 				In order to provide streamlined results, notifications, and personalized scores, we ask that
-				you provide us your privacy priorities.  
+				you provide us information about your privacy priorities.  
 
 				Please rate the following topics on their importance to you.
 				</p>
@@ -97,11 +95,9 @@ function PreferencesPopup(props) {
 
 				</div>
 
-			</div>
+	
 
-		  <div id="EditInfoBox">
-		
-		 	</div>
+
 
 		</div>
 	)

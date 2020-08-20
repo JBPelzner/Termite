@@ -15,43 +15,47 @@ function Options(props) {
 
 			<div className="Options-Nav">
 			<div className="Options-Header">
-				<h1 class="optionsh1">Termite</h1>
+				<h1 class="optionsh1">Termite User Portal</h1>
 				</div>
 
 			
-				{(props.page === "UserPreferences") ? (
-					<button className="Options-NavButtonSelected">User Preferences</button>
-				) : (
-					<button className="Options-NavButton" onClick={() => props.setPage("UserPreferences")}>Preferences</button>
-				)}
+				
 				{(props.page === "UserReports") ? (
-					<button className="Options-NavButtonSelected">User Reports</button>
+					<button className="Options-NavButtonSelected">My Reports</button>
 				) : (
-					<button className="Options-NavButton" onClick={() => props.setPage("UserReports")}>My User Reports</button>
+					<button className="Options-NavButton" onClick={() => props.setPage("UserReports")}>My Reports</button>
 				)}
 				{(props.page === "Agreements") ? (
-					<button className="Options-NavButtonSelected">Agreements</button>
+					<button className="Options-NavButtonSelected">My Agreements</button>
 				) : (
-					<button className="Options-NavButton" onClick={() => props.setPage("Agreements")}>Agreements</button>
+					<button className="Options-NavButton" onClick={() => props.setPage("Agreements")}>My Agreements</button>
+				)}
+				{(props.page === "UserPreferences") ? (
+					<button className="Options-NavButtonSelected">Preferences</button>
+				) : (
+					<button className="Options-NavButton" onClick={() => props.setPage("UserPreferences")}>Preferences</button>
 				)}
 				{(props.page === "About") ? (
 					<button className="Options-NavButtonSelected">About Our Classifier</button>
 				) : (
 					<button className="Options-NavButton" onClick={() => props.setPage("About")}>About Our Classifier</button>
 				)}
+				<a href="http://bit.ly/TERMITE"><button className="Options-NavButton">Our Website</button></a>
 
-				<button className="Options-NavButton" a href="www.gmail.com">Contact Us</button>
+				<a href="https://odowns3.wixsite.com/termite/contact"><button className="Options-NavButton" >Contact Us</button></a>
 			</div>
 
 		<div className="Options-Content">
+
+				{(props.page === "Agreements") && <AgreementsOptions userID={props.userID} /> }
 			
 				{(props.page === "About") && <AboutOptions /> }
 
-				{(props.page === "UserPreferences") && <UserPreferencesOptions userID={props.userID}/> }
+				{(props.page === "UserPreferences") && <UserPreferencesOptions userID={props.userID} /> }
 
 				{(props.page === "UserReports") && <UserReportsOptions /> }
 
-				{(props.page === "Agreements") && <AgreementsOptions userID={props.userID}/> }
+				
 
 			</div>
 

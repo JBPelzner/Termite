@@ -1,17 +1,20 @@
 #PreferencesBox {
-  overflow: hidden;
-  height: 580px;
+  height: 520px;
+
+  align-self:center;
+  margin-left:0px;
 }
 
 #PreferencesScrollbox{
-	overflow: scroll;
+	width:100%;
+	overflow:auto;
+	padding:2px;
+
 }
 
-#PreferencesPopup-Text {
-  padding: 10px;
-  padding-left:15px;
-  padding-right:15px;
-  font-size:14px;
+.PreferencesPopup-Text {
+  padding: 5px;
+  font-size:11px;
   text-align:left;
 }
 
@@ -19,15 +22,20 @@
 .lefth3{
 	text-align:left;
 	margin-left:10px;
-	font-size:16px;
+	font-size:12px;
 	font-weight:lighter;
 
 }
 
 .lefth4{
 	text-align:left;
-	margin-left:25px;
+	margin-left:18px;
 
+}
+
+.PreferencesPopup{
+
+	height:520px;
 }
 
 
